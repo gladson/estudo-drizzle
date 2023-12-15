@@ -1,0 +1,11 @@
+﻿id,name,email,password,age,gender,role
+1,GLADSON1,gladson1@gmail.com,123456,25,male,1
+2,GLADSON2,gladson2@gmail.com,123457,26,female,2
+3,GLADSON3,gladson3@gmail.com,123458,27,other,3
+4,GLADSON4,gladson4@gmail.com,123459,28,male,4
+5,GLADSON5,gladson5@gmail.com,123460,29,female,5
+6,GLADSON6,gladson6@gmail.com,123461,30,other,6
+7,GLADSON7,gladson7@gmail.com,123462,31,male,7
+8,GLADSON8,gladson8@gmail.com,123463,32,female,8
+9,GLADSON9,gladson9@gmail.com,123464,33,other,9
+10,GLADSON10,gladson10@gmail.com,123465,34,male,10

@@ -1,0 +1,48 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "app",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}\\src\\app.ts",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/tsx",
+      "runtimeArgs": [
+        "watch",
+        "--no-cache",
+        "--no-warnings",
+        "-r",
+        "dotenv/config"
+      ],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        // Node.js internal core modules
+        "<node_internals>/**",
+        // Ignore all dependencies (optional)
+        "${workspaceFolder}/node_modules/**"
+      ]
+    },
+    {
+      "name": "db-migrate",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}\\src\\db\\migrator.ts",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/tsx",
+      "runtimeArgs": ["--no-cache", "--no-warnings", "-r", "dotenv/config"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        // Node.js internal core modules
+        "<node_internals>/**",
+        // Ignore all dependencies (optional)
+        "${workspaceFolder}/node_modules/**"
+      ]
+    }
+  ]
+}

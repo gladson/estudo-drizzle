@@ -1,0 +1,11 @@
+{
+  "splitting": true,
+  "sourcemap": false,
+  "clean": true,
+  "minify": true,
+  "dts": true,
+  "format": ["cjs", "esm"],
+  "entry": ["src/app.ts"],
+  "outDir": "build",
+  "tsconfig": "tsconfig.json"
+}
