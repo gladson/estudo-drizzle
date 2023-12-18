@@ -1,5 +1,5 @@
-import { expect, test } from 'vitest'
-import { saveUserToDatabase } from './app'
+import { expect, test } from 'vitest';
+import { App } from './app';
 
 test('app - check if user saved in database', () => {
     const userObject = {
@@ -10,6 +10,6 @@ test('app - check if user saved in database', () => {
         createdAt: new Date(),
         updatedAt: new Date()
     }
-    const user = saveUserToDatabase(userObject)
+    const user = new App().handler();
     expect(user).toEqual(userObject)
 })

@@ -1,8 +1,8 @@
 {
   "version": "5",
   "dialect": "mysql",
-  "id": "ed6f4aa7-0134-44ea-94f7-305db369b21f",
-  "prevId": "00000000-0000-0000-0000-000000000000",
+  "id": "30a0fb54-8ddf-4b1d-97ff-97eb4c51b02f",
+  "prevId": "ed6f4aa7-0134-44ea-94f7-305db369b21f",
   "tables": {
     "blog_to_category_tb": {
       "name": "blog_to_category_tb",
@@ -42,8 +42,7 @@
           "primaryKey": false,
           "notNull": false,
           "autoincrement": false,
-          "onUpdate": true,
-          "default": "(now())"
+          "onUpdate": true
         },
         "deleted_at": {
           "name": "deleted_at",
@@ -175,8 +174,7 @@
           "primaryKey": false,
           "notNull": false,
           "autoincrement": false,
-          "onUpdate": true,
-          "default": "(now())"
+          "onUpdate": true
         },
         "deleted_at": {
           "name": "deleted_at",
@@ -279,8 +277,7 @@
           "primaryKey": false,
           "notNull": false,
           "autoincrement": false,
-          "onUpdate": true,
-          "default": "(now())"
+          "onUpdate": true
         },
         "deleted_at": {
           "name": "deleted_at",
@@ -345,7 +342,7 @@
           "name": "description",
           "type": "text",
           "primaryKey": false,
-          "notNull": true,
+          "notNull": false,
           "autoincrement": false
         },
         "created_at": {
@@ -362,8 +359,7 @@
           "primaryKey": false,
           "notNull": false,
           "autoincrement": false,
-          "onUpdate": true,
-          "default": "(now())"
+          "onUpdate": true
         },
         "deleted_at": {
           "name": "deleted_at",
@@ -466,8 +462,7 @@
           "primaryKey": false,
           "notNull": false,
           "autoincrement": false,
-          "onUpdate": true,
-          "default": "(now())"
+          "onUpdate": true
         },
         "deleted_at": {
           "name": "deleted_at",

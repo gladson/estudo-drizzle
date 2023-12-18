@@ -21,6 +21,7 @@ const migrateDb = async () => {
         const conn = drizzle(client);
         log.info('Connected to database!');
         log.info('Migrating database...');
+        log.info(path.resolve(__dirname, 'migration'));
         await migrate(conn, {
             migrationsFolder: path.resolve(__dirname, 'migration'),
         });
